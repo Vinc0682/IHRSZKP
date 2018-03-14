@@ -68,7 +68,7 @@ To do so, Erik reconstructs `c0` using `c0 = H(C, Xn)` and then recreates `X'0 =
 If they differ, he reports that the signature is invalid and then aborts. If not, he reconstructs `c1` to rebuild `X'1`
 and compare it to `X1` etc. The signature is valid when all `X` match with their reconstructions.
 
-## Aimed security targets
+## Targeted security targets
 
 These claims are not binding, but I think they may be true since that's what I aimed for when creating the ZKP:
 
